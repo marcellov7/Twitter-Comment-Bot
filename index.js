@@ -9,23 +9,90 @@ const openaiApiKey = "sk-proj-sLf3VHTY6hnaip7alrJ6S0Wre-7XuWbsg2xSujGbs62XrPVJ3i
 
 function getKeyword() {
   // select random keywords
-  const keywords = [
-    "reactjs",
-    "javascript",
-    "front-end developer",
-    "javascript developer",
-    "html",
-    "css",
-    "developer job",
-    "tips for javascript developer",
-    "website",
-    "web design",
-    "developer job",
-    "MAANG companies",
-    "coding",
-    "reading book",
-    "programmer work culture",
-  ];
+ const keywords = [
+    // Core Streaming Technology
+    "videostreaming",
+    "streamingplatform",
+    "saas",
+    "cloudcomputing",
+    "videotechnology",
+    "contentcreator",
+    "livestreaming",
+    
+    // Technical Specifications
+    "rtmp",
+    "hlsstreaming",
+    "dashstreaming",
+    "webrtc",
+    "lowlatency",
+    "adaptivebitrate",
+    "cdndelivery",
+    
+    // Security & Protection
+    "drm",
+    "drmprotection",
+    "widevinedrm",
+    "fairplaydrm",
+    "contentprotection",
+    "geoblocking",
+    
+    // OTT Related
+    "ott",
+    "ottplatform",
+    "ottmarket",
+    "ottwhitelabel",
+    "ottmonetization",
+    "ottsolutions",
+    
+    // Video Processing
+    "encoding",
+    "transcoding",
+    "videoquality",
+    "4kstreaming",
+    "multibitrate",
+    "videocompression",
+    
+    // Business Solutions
+    "streamingsolutions",
+    "whitelabelsaas",
+    "mediamanagement",
+    "contentdelivery",
+    "streaminganalytics",
+    "liveevent",
+    
+    // Industry Specific
+    "sportstreaming",
+    "sportlive",
+    "liveeventstreaming",
+    "corporatestreaming",
+    "educationstreaming",
+    "videointranet",
+    "intranetvideo",
+    
+    // Features
+    "multidevicestreaming",
+    "vodplatform",
+    "catchupTV",
+    "timeshift",
+    "cloudrecording",
+    
+    // Infrastructure
+    "streamingarchitecture",
+    "scalablestreaming",
+    "hybridcdn",
+    "edgecomputing",
+    "p2pstreaming",
+    
+    // Analytics & Monitoring
+    "streaminganalytics",
+    "qoeanalytics",
+    "vieweranalytics",
+    "streamingmetrics",
+    "qualitymonitoring",
+    "videomonitoring",
+    "videostreaming"
+
+];
 
   const index = Math.floor(Math.random() * keywords.length);
   return keywords[index];
@@ -81,7 +148,7 @@ async function searchAndComment() {
     console.log(`Comment posted: ${postResponse.text}`);
 
     // Delay each iteration for 30min
-    await new Promise((resolve) => setTimeout(resolve, 30 * 60 * 1000));
+    await new Promise((resolve) => setTimeout(resolve, 120 * 60 * 1000));
   }
   searchAndComment();
 }
