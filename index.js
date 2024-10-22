@@ -5,7 +5,7 @@ const twitterConsumerKey = "cxsIKc9WjK0xjPC0YCGF64FDA";
 const twitterConsumerSecret = "q4YaxHHuemTyaaAT4M8JeTxNAWFSc2uzZxz6CUuX62ynnL83DH";
 const twitterAccessToken = "928606294021410816-kvF36C94qUVc7jAUMt04eWszYMogpbJ";
 const twitterAccessTokenSecret = "9PXg4iYOkQL96YaAyLq0WeruzzwbfOK2aYo1PYc9EeoE5";
-const openaiApiKey = "Open AI API key";
+const openaiApiKey = "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";
 
 function getKeyword() {
   // select random keywords
