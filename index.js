@@ -1,10 +1,10 @@
 import axios from "axios";
 import Twit from "twit";
 
-const twitterConsumerKey = "Consumer Key";
-const twitterConsumerSecret = "Consumer Secret Key";
-const twitterAccessToken = "Acess Token";
-const twitterAccessTokenSecret = "Access Token Secret";
+const twitterConsumerKey = "cxsIKc9WjK0xjPC0YCGF64FDA";
+const twitterConsumerSecret = "q4YaxHHuemTyaaAT4M8JeTxNAWFSc2uzZxz6CUuX62ynnL83DH";
+const twitterAccessToken = "928606294021410816-kvF36C94qUVc7jAUMt04eWszYMogpbJ";
+const twitterAccessTokenSecret = "9PXg4iYOkQL96YaAyLq0WeruzzwbfOK2aYo1PYc9EeoE5";
 const openaiApiKey = "Open AI API key";
 
 function getKeyword() {
